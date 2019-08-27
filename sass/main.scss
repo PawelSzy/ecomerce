@@ -264,5 +264,11 @@ textarea {
   }
 }
 
-@import "bootstrap-variables";
+
+$container-max-widths: (
+  xl: 1170px,
+);
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "header";
 

@@ -1,0 +1,8 @@
+.header {
+  background-color: #fdcc65;
+  &__flags {
+    &__flag + &__flag {
+      margin-left: 10px;
+    }
+  }
+}
