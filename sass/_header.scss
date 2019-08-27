@@ -2,7 +2,19 @@
   background-color: #fdcc65;
   &__flags {
     &__flag + &__flag {
-      margin-left: 10px;
+      margin-left: 17px;
+    }
+  }
+  &__login {
+    display: flex;
+    flex-direction: column;
+    color: $main-text-color;
+    & a {
+      color: $main-text-color;
+    }
+    @media (min-width: 768px) {
+      float: right;
+      flex-direction: row;
     }
   }
 }

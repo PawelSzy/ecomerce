@@ -268,7 +268,7 @@ textarea {
 $container-max-widths: (
   xl: 1170px,
 );
+@import "colors";
 @import "../node_modules/bootstrap/scss/bootstrap";
-
 @import "header";
 
