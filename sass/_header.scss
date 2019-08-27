@@ -8,12 +8,15 @@
   &__login {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     color: $main-text-color;
-    & a {
+    &__element {
       color: $main-text-color;
+      margin-top: auto;
+      margin-bottom: auto;
     }
     @media (min-width: 768px) {
-      float: right;
+//      float: right;
       flex-direction: row;
     }
   }
