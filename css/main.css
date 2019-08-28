@@ -7340,4 +7340,46 @@ a.text-dark:hover, a.text-dark:focus {
     margin-top: 24px;
     margin-left: 14px; }
 
+.shopping-navbar {
+  color: #2a2a2a;
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase; }
+  .shopping-navbar__countries {
+    padding: 0; }
+  .shopping-navbar__input-group {
+    height: 39px; }
+    .shopping-navbar__input-group__input {
+      width: 260px;
+      background-color: #fcfcfc; }
+    .shopping-navbar__input-group--search-button {
+      background-color: #d9611b;
+      height: 38px; }
+  .shopping-navbar__form-search {
+    width: 260px; }
+  .shopping-navbar__cart {
+    width: 38px;
+    height: 38px;
+    background-color: #d9611b;
+    font-size: 19px;
+    line-height: 36px;
+    color: white;
+    margin-left: 15px;
+    text-align: center; }
+  .shopping-navbar__cart-value {
+    height: 39px;
+    background-color: #fcfcfc;
+    color: #2a2a2a;
+    font-family: "Montserrat", arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 39px;
+    text-align: center;
+    padding: 0 17px; }
+  .shopping-navbar a {
+    color: #2a2a2a; }
+  .shopping-navbar btn.bg-main {
+    background-color: #d9611b; }
+
 /*# sourceMappingURL=maps/main.css.map */
