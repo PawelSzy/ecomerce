@@ -7230,6 +7230,15 @@ a.text-dark:hover, a.text-dark:focus {
 
 .header {
   background-color: #fdcc65; }
+  .header__navbar {
+    padding: 0;
+    margin-bottom: 0; }
+    .header__navbar.navbar {
+      margin-bottom: 0;
+      min-height: 0; }
+  .header__flags.navbar-brand {
+    padding: 0;
+    height: auto; }
   .header__flags__flag + .header__flags__flag {
     margin-left: 17px; }
   .header__login {
