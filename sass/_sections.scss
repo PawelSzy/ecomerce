@@ -1,0 +1,36 @@
+.hero-banner {
+  border-top: 1px solid $border-color;
+  padding-top: 54px;
+  &__header {
+    color: #d9611b;
+    $font-family: $main-font;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50px;
+  }
+  &__text {
+    color: #686868;
+    font-family: Lora;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 39px;
+  }
+  &__button {
+    color: #2a2a2a;
+    font-family: "Montserrat", arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid #d9611b;
+    background: #ffffff;
+    padding: 10px 32px;
+    box-sizing: border-box;
+    margin-top: 21px;
+  }
+  &__image {
+    margin-top: 24px;
+    margin-left: 14px;
+  }
+}

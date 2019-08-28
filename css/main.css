@@ -215,6 +215,12 @@ textarea {
   h3 {
     page-break-after: avoid; } }
 
+.bg-main {
+  background-color: #d9611b; }
+
+.bg-information {
+  background-color: #fdcc65; }
+
 @font-face {
   font-family: 'Myriad Pro';
   src: url("../fonts/MYRIADPRO-REGULAR.woff"); }
@@ -7233,7 +7239,8 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 .header {
-  background-color: #fdcc65; }
+  background-color: #fdcc65;
+  margin-bottom: 126px; }
   .header__navbar {
     padding: 0;
     margin-bottom: 0; }
@@ -7243,19 +7250,26 @@ a.text-dark:hover, a.text-dark:focus {
   .header__second-line {
     width: 99vw;
     left: 0;
-    margin-top: 48px;
-    margin-bottom: 52px; }
-    .header__second-line__image {
-      margin: 0 38px; }
+    display: flex;
+    flex-direction: column; }
     @media (min-width: 992px) {
       .header__second-line {
-        position: absolute; } }
-    @media (min-width: 992px) {
-      .header__second-line__link {
-        color: #2a2a2a;
-        font-family: "Montserrat", arial, sans-serif;
-        font-size: 13px;
-        font-weight: bold; }
+        margin-top: 48px;
+        margin-bottom: 52px;
+        position: absolute;
+        display: block; } }
+    .header__second-line__image {
+      margin: 0 38px;
+      display: none; }
+      @media (min-width: 992px) {
+        .header__second-line__image {
+          display: inline; } }
+    .header__second-line__link {
+      color: #2a2a2a;
+      font-family: "Montserrat", arial, sans-serif;
+      font-size: 13px;
+      font-weight: 400; }
+      @media (min-width: 992px) {
         .header__second-line__link--active {
           color: #d9611b; }
         .header__second-line__link:first-of-type {
@@ -7294,5 +7308,36 @@ a.text-dark:hover, a.text-dark:focus {
     @media (min-width: 768px) {
       .header__login {
         flex-direction: row; } }
+
+.hero-banner {
+  border-top: 1px solid #dee2e6;
+  padding-top: 54px; }
+  .hero-banner__header {
+    color: #d9611b;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50px; }
+  .hero-banner__text {
+    color: #686868;
+    font-family: Lora;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 39px; }
+  .hero-banner__button {
+    color: #2a2a2a;
+    font-family: "Montserrat", arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 1px solid #d9611b;
+    background: #ffffff;
+    padding: 10px 32px;
+    box-sizing: border-box;
+    margin-top: 21px; }
+  .hero-banner__image {
+    margin-top: 24px;
+    margin-left: 14px; }
 
 /*# sourceMappingURL=maps/main.css.map */

@@ -1,6 +1,7 @@
 .header {
   $header-background: #fdcc65;
   background-color: $header-background;
+  margin-bottom: 126px;
   &__navbar {
     padding: 0;
     margin-bottom: 0;
@@ -12,21 +13,29 @@
   &__second-line {
     width: 99vw;
     left: 0;
-    margin-top: 48px;
-    margin-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 992px) {
+      margin-top: 48px;
+      margin-bottom: 52px;
+      position: absolute;
+      display: block;
+    }
+
     &__image {
       margin: 0 38px;
-    }
-    @media (min-width: 992px) {
-      position: absolute;
-    }
-    &__link {
+      display: none;
       @media (min-width: 992px) {
-        color: #2a2a2a;
-        font-family: $main-font;
-        font-size: 13px;
-        font-weight: bold;
+        display: inline;
+      }
+    }
 
+    &__link {
+      color: #2a2a2a;
+      font-family: $main-font;
+      font-size: 13px;
+      font-weight: 400;
+      @media (min-width: 992px) {
         &--active {
           color: $color-primary;
         }
