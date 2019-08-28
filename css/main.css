@@ -215,6 +215,10 @@ textarea {
   h3 {
     page-break-after: avoid; } }
 
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MYRIADPRO-REGULAR.woff"); }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -7236,6 +7240,43 @@ a.text-dark:hover, a.text-dark:focus {
     .header__navbar.navbar {
       margin-bottom: 0;
       min-height: 0; }
+  .header__second-line {
+    width: 99vw;
+    left: 0;
+    margin-top: 48px;
+    margin-bottom: 52px; }
+    .header__second-line__image {
+      margin: 0 38px; }
+    @media (min-width: 992px) {
+      .header__second-line {
+        position: absolute; } }
+    @media (min-width: 992px) {
+      .header__second-line__link {
+        color: #2a2a2a;
+        font-family: "Montserrat", arial, sans-serif;
+        font-size: 13px;
+        font-weight: bold; }
+        .header__second-line__link--active {
+          color: #d9611b; }
+        .header__second-line__link:first-of-type {
+          margin-left: 65px; }
+        .header__second-line__link + .header__second-line__link {
+          margin-left: 38px; } }
+    .header__second-line__search {
+      float: right;
+      display: inline-block;
+      margin-right: -11px; }
+      .header__second-line__search__input.form-control {
+        width: 212px;
+        height: 40px;
+        border: 1px solid #d9611b;
+        font-family: "Montserrat", arial, sans-serif; }
+        .header__second-line__search__input.form-control::placeholder {
+          color: #2a2a2a;
+          font-family: "Montserrat", arial, sans-serif;
+          font-size: 13px;
+          font-weight: 400;
+          font-weight: bold; }
   .header__flags.navbar-brand {
     padding: 0;
     height: auto; }
