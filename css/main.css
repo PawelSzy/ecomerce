@@ -7391,4 +7391,111 @@ a.text-dark:hover, a.text-dark:focus {
   .shopping-navbar btn.bg-main {
     background-color: #d9611b; }
 
+.required-field {
+  color: #2a2a2a;
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400; }
+  .required-field__star {
+    vertical-align: text-top; }
+
+.add-to-cart {
+  background-color: #d9611b;
+  display: inline-block;
+  padding: 12px 24px;
+  color: #ffffff;
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400; }
+
+.aviability {
+  color: #2a2a2a;
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400; }
+  .aviability__checkbox, .aviability__checkbox.checkbox {
+    display: inline; }
+
+.items-list__main-image {
+  padding: 217px 101px 188px; }
+  .items-list__main-image__image {
+    border: 1px solid #dee2e6;
+    box-sizing: border-box;
+    max-width: 170px; }
+    .items-list__main-image__image:hover {
+      border: 3px solid rgba(217, 97, 27, 0.61); }
+
+.items-list__items-table__header {
+  color: #2a2a2a;
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 27px; }
+  @media (min-width: 992px) {
+    .items-list__items-table__header:after {
+      content: "";
+      width: 140px;
+      height: 2px;
+      background-color: #d9611b;
+      position: absolute;
+      bottom: -27px;
+      left: 12px; } }
+
+.items-list__items-table__price {
+  color: #d9611b;
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 51px; }
+
+.items-list__items-table__icons__icon {
+  font-size: 19px;
+  background-color: #f9f9f9;
+  color: #2a2a2a;
+  padding: 8px;
+  height: fit-content;
+  border-radius: 28px; }
+  .items-list__items-table__icons__icon + .items-list__items-table__icons__icon {
+    margin-left: 17px; }
+  .items-list__items-table__icons__icon--hearth {
+    background-color: #d9611b;
+    color: white;
+    padding: 8px;
+    border-radius: 28px; }
+
+.items-list__items-table .table > tbody > tr > td,
+.items-list__items-table .table > tbody > tr > th {
+  border-top: none; }
+
+.items-list__items-table__table {
+  border: 1px solid #d9611b; }
+  .items-list__items-table__table > tbody > tr > td,
+  .items-list__items-table__table > tbody > tr > th {
+    border-top: none; }
+  .items-list__items-table__table__head {
+    background-color: #d9611b; }
+  .items-list__items-table__table__small-table {
+    padding: 0;
+    margin: 0; }
+
+.small-table {
+  border: 1px solid #d9611b; }
+  .small-table td {
+    vertical-align: middle;
+    border-right: 1px solid #d9611b; }
+
+.mini-table-plus-minus {
+  background-color: #fdcc65;
+  border: 1px solid #d9611b;
+  position: relative; }
+  .mini-table-plus-minus:after {
+    content: "";
+    background-color: #d9611b;
+    width: 25px;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    top: 28px; }
+
 /*# sourceMappingURL=maps/main.css.map */

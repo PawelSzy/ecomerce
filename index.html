@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="" xmlns="http://www.w3.org/1999/html">
 
 <head>
   <meta charset="utf-8">
@@ -31,8 +31,8 @@
 
   <!-- Add your site or application content here -->
   <header class="header">
-    <div class="container d-flex">
-      <nav class="header__navbar navbar navbar-light navbar-expand-lg w-100">
+    <div class="container d-flex px-0">
+      <nav class="header__navbar navbar navbar-light navbar-expand-lg w-100 pr-3 pl-5">
         <div class="navbar-brand header__flags col-2 d-flex" >
             <a class="header__flags__flag header_flags__flag--usa" href=""><img src="./img/usa-flag.png"></a>
             <a class="header__flags__flag header_flags__flag--brazil" href=""><img src="./img/brazil-flag.png"></a>
@@ -43,7 +43,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse px-0" id="navbarNavAltMarkup">
           <div class="d-flex header__login">
             <a href="" class="header__login__element nav-item nav-link header__contact-icon fab fa-facebook-f"></a>
 
@@ -68,7 +68,7 @@
             <a class="header__second-line__link" href="">Contact US</a>
 
             <form class="header__second-line__search search form-inline my-2 my-lg-0">
-              <input class="form-control header__second-line__search__input search__input mr-sm-2" type="search" placeholder="Search Here" aria-label="Search">
+              <input class="form-control header__second-line__search__input search__input mr-sm-3" type="search" placeholder="Search Here" aria-label="Search">
             </form>
           </div>
         </div>
@@ -96,76 +96,263 @@
 
     <section class="shopping-navbar container-fluid bg-information my-0">
       <nav class="navbar navbar-light navbar-expand-lg container my-0">
+        <div class="row col-12 px-0">
+          <div class="navbar-brand shopping-navbar__countries py-0" href="#">
+                                                                              <ul class="navbar-nav mr-auto flex-row">
+                                                                              <li class="nav-item dropdown shopping-navbar__countries__item ">
+                                                                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownEN" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                              EN
+                                                                              </a>
+                                                                              <div class="dropdown-menu" aria-labelledby="navbarDropdownEN">
+                                                                              <a class="dropdown-item" href="#">London</a>
+                                                                              <a class="dropdown-item" href="#">Manchester</a>
+                                                                              <div class="dropdown-divider"></div>
+                                                                              <a class="dropdown-item" href="#">Liverpool</a>
+                                                                              </div>
+                                                                              </li>
 
-        <div class="navbar-brand shopping-navbar__countries py-0" href="#">
-          <ul class="navbar-nav mr-auto flex-row">
-            <li class="nav-item dropdown shopping-navbar__countries__item ">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownEN" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               EN
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownEN">
-                <a class="dropdown-item" href="#">London</a>
-                <a class="dropdown-item" href="#">Manchester</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Liverpool</a>
-              </div>
-            </li>
+                                                                              <li class="nav-item dropdown ml-3 shopping-navbar__countries__item">
+                                                                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownUS" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                              US
+                                                                              </a>
+                                                                              <div class="dropdown-menu" aria-labelledby="navbarDropdownUS">
+                                                                              <a class="dropdown-item" href="#">New York</a>
+                                                                              <a class="dropdown-item" href="#">Boston</a>
+                                                                              <div class="dropdown-divider"></div>
+                                                                              <a class="dropdown-item" href="#">Massachusets</a>
+                                                                              </div>
+                                                                              </li>
+                                                                              </ul>
+                                                                              </div>
 
-            <li class="nav-item dropdown ml-3 shopping-navbar__countries__item">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownUS" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                US
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownUS">
-                <a class="dropdown-item" href="#">New York</a>
-                <a class="dropdown-item" href="#">Boston</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Massachusets</a>
-              </div>
-            </li>
-          </ul>
-        </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSecondary" aria-controls="navbarSecondary" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSecondary" aria-controls="navbarSecondary" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <div class="collapse navbar-collapse" id="navbarSecondary">
+                                                                      <ul class="navbar-nav ml-auto float-right">
+                                                                      <li class="nav-item">
+                                                                      <a class="nav-link" href="#">Shopping Car</a>
+                                                                      </li>
 
-        <div class="collapse navbar-collapse" id="navbarSecondary">
-          <ul class="navbar-nav ml-auto float-right">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Shopping Car</a>
-            </li>
+                                                                      <li class="nav-item">
+                                                                      <a class="nav-link" href="#">WishList(7)</a>
+                                                                      </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">WishList(7)</a>
-            </li>
+                                                                      <li class="nav-item">
+                                                                      <a class="nav-link" href="#">Checkout</a>
+                                                                      </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">Checkout</a>
-            </li>
+                                                                      <li class="nav-item">
+                                                                      <a class="nav-link" href="#">My Account</a>
+                                                                      </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">My Account</a>
-            </li>
+                                                                      <li class="nav-item">
+                                                                      <form class="form-inline my-2 my-lg-0 shopping-navbar__form-search">
+                                                                      <div class="input-group shopping-navbar__input-group d-flex flex-column">
+                                                                      <input type="text" class="shopping-navbar__input-group__input form-control" placeholder="Search this blog">
 
-            <li class="nav-item">
-              <form class="form-inline my-2 my-lg-0 shopping-navbar__form-search">
-                <div class="input-group shopping-navbar__input-group d-flex flex-column">
-                  <input type="text" class="shopping-navbar__input-group__input form-control" placeholder="Search this blog">
+                                                                      <button class="btn shopping-navbar__input-group--search-button" type="button">
+                                                                      <i class="fa fa-search"></i>
+                                                                      </button>
 
-                    <button class="btn shopping-navbar__input-group--search-button" type="button">
-                      <i class="fa fa-search"></i>
-                    </button>
-
-                  <div class="nav-item d-flex">
-                    <div class=" shopping-navbar__cart fas fa-shopping-cart"></div>
-                    <div class="shopping-navbar__cart-value">$79.00</div>
-                  </div>
-                </div>
-              </form>
-            </li>
-          </ul>
+                                                                      <div class="nav-item d-flex">
+                                                                      <div class=" shopping-navbar__cart fas fa-shopping-cart"></div>
+                                                                      <div class="shopping-navbar__cart-value">$79.00</div>
+                                                                      </div>
+                                                                      </div>
+                                                                      </form>
+                                                                      </li>
+                                                                      </ul>
+                                                                      </div>
         </div>
       </nav>
+    </section>
+
+    <section class="items-list container my-5">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <img src="./img/item_1.png" alt="image of used item" class="border items-list__main-image" />
+          <div class="items-list__small-images mt-3">
+            <div class="col-sm-4 pl-0">
+              <img src="./img/item_1.png" alt="small image of used item" class="col-12 items-list__main-image__image">
+            </div>
+
+            <div class="col-sm-4 pl-0">
+              <img src="./img/item_2.png" alt="small image of used item" class="col-12 items-list__main-image__image">
+            </div>
+
+            <div class="col-sm-4 pl-0">
+              <img src="./img/item_3.png" alt="small image of used item" class="col-12 items-list__main-image__image">
+            </div>
+          </div>
+        </div>
+
+        <div class="items-list__items-table col-12 col-lg-6">
+          <div class="row">
+            <h2 class="items-list__items-table__header col-lg-6">
+              Buffer Pad Driver
+            </h2>
+            <div class="items-list__items-table__icons col-lg-6 pl-5 d-flex justify-content-center">
+              <div class="items-list__items-table__icons__icon items-list__items-table__icons__icon--hearth fas fa-heart"></div>
+              <div class="items-list__items-table__icons__icon fas fa-chart-bar"></div>
+              <div class="items-list__items-table__icons__icon fas fa-truck"></div>
+              <div class="items-list__items-table__icons__icon fas fa-question"></div>
+            </div>
+          </div>
+
+          <p class="items-list__items-table__price">
+            $89.99
+          </p>
+          <table class="items-list__items-table__table table table-borderless">
+            <thead class="items-list__items-table__table__head">
+            <tr>
+              <th scope="col">Grit</th>
+              <th scope="col">Price</th>
+              <th scope="col">Quantity</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <th scope="row">16 (10 Per box)</th>
+              <td>$36</td>
+              <td class="items-list__items-table__small-table">
+                <table class="small-table">
+                  <tr>
+                    <td>QTY</td>
+                    <td>1</td>
+                    <td class="mini-table-plus-minus">
+                      <div class="d-flex flex-column">
+                        <div>+</div>
+                        <div>-</div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">16 (10 Per box)</th>
+              <td>$36</td>
+              <td class="items-list__items-table__small-table">
+                <table class="small-table">
+                  <tr>
+                    <td>QTY</td>
+                    <td>1</td>
+                    <td class="mini-table-plus-minus">
+                      <div class="d-flex flex-column">
+                        <div>+</div>
+                        <div>-</div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">16 (10 Per box)</th>
+              <td>$36</td>
+              <td class="items-list__items-table__small-table">
+                <table class="small-table">
+                  <tr>
+                    <td>QTY</td>
+                    <td>1</td>
+                    <td class="mini-table-plus-minus">
+                      <div class="d-flex flex-column">
+                        <div>+</div>
+                        <div>-</div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">16 (10 Per box)</th>
+              <td>$36</td>
+              <td class="items-list__items-table__small-table">
+                <table class="small-table">
+                  <tr>
+                    <td>QTY</td>
+                    <td>1</td>
+                    <td class="mini-table-plus-minus">
+                      <div class="d-flex flex-column">
+                        <div>+</div>
+                        <div>-</div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">16 (10 Per box)</th>
+              <td>$36</td>
+              <td class="items-list__items-table__small-table">
+                <table class="small-table">
+                  <tr>
+                    <td>QTY</td>
+                    <td>1</td>
+                    <td class="mini-table-plus-minus">
+                      <div class="d-flex flex-column">
+                        <div>+</div>
+                        <div>-</div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">16 (10 Per box)</th>
+              <td>$36</td>
+              <td class="items-list__items-table__small-table">
+                <table class="small-table">
+                  <tr>
+                    <td>QTY</td>
+                    <td>1</td>
+                    <td class="mini-table-plus-minus">
+                      <div class="d-flex flex-column">
+                        <div>+</div>
+                        <div>-</div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">16 (10 Per box)</th>
+              <td>$36</td>
+              <td class="items-list__items-table__small-table">
+                <table class="small-table">
+                  <tr>
+                    <td>QTY</td>
+                    <td>1</td>
+                    <td class="mini-table-plus-minus">
+                      <div class="d-flex flex-column">
+                        <div>+</div>
+                        <div>-</div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+          <div class="required-field"><span class="required-field__star">*</span> Required fields</div>
+          <div class="add-to-cart my-3">Add to card
+            <div class="fas fa-shopping-cart pl-4"></div>
+          </div>
+          <div class="aviability">
+            <label>
+              <input checked class="aviability__checkbox checkbox in-stock" type="checkbox" name="aviability__checkbox" value="in-stock">
+              <span class="ml-3">Aviability: in stock</span>
+            </label>
+          </div>
+        </div>
+      </div>
     </section>
 
   </main>
