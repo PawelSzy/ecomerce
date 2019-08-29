@@ -6,6 +6,13 @@
   text-transform: uppercase;
   &__countries {
     padding: 0;
+    &__item {
+      color: $main-text-color;
+      font-family: $main-font;
+      font-size: 13px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
   }
   &__input-group {
     height: 39px;
@@ -20,6 +27,9 @@
   }
   &__form-search {
     width: 260px;
+    @media (min-width: 992px) {
+      margin-right: 114px;
+    }
   }
   &__cart {
     width: 38px;
