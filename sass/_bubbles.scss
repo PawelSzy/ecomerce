@@ -1,0 +1,67 @@
+.bubbles {
+  &__header {
+    color: $color-primary;
+    font-family: $main-font;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 127px;
+    margin-bottom: 89px;
+  }
+  &__list {
+   &__element {
+     width: 331px;
+     height: 269px;
+     & + & {
+       margin-left: 110px;
+     }
+   }
+  }
+  &__image {
+    margin-top: 34px;
+    text-align: center;
+    width: 331px;
+  }
+}
+
+.bubble {
+  width: 331px;
+  height: 269px;
+  border: 1px solid $border-color-2;
+  padding: 46px 18px 46px 70px;
+  border-radius: 14px;
+  color: $text-color-3;
+  font-family: $main-font;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23.32px;
+  box-sizing: border-box;
+  &:hover {
+    background-color: $color-primary;
+    width: 311px;
+    height: 311px;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    margin: auto;
+    bottom: -11px;
+    left: 72px;
+    right: 0;
+    width: 24px;
+    height: 24PX;
+    background-color: white;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    border-right: 1px solid $border-color-2;
+    border-bottom: 1px solid $border-color-2;
+  }
+  &:hover::after {
+    bottom: -53px;
+    background-color: $color-primary;
+  }
+}
