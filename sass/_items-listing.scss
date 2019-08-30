@@ -8,6 +8,25 @@
   }
 }
 
+.items-2 {
+  margin-top: 30px;
+  &__header {
+    color: $color-primary;
+    font-family: $main-font;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  &__text {
+    color: $text-color-2;
+    font-family: $text-font;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 460px;
+  }
+}
+
 .items-listing {
   &__item {
     margin-top: 18px;
@@ -41,5 +60,17 @@
       font-weight: 400;
       text-align: center;
     }
+  }
+  &__button, &__button.btn {
+    color: $main-text-color;
+    font-family: $main-font;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    border-color: $color-primary;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 13px 32px;
   }
 }
