@@ -7417,7 +7417,7 @@ a.text-dark:hover, a.text-dark:focus {
     display: inline; }
 
 .items-list__main-image {
-  padding: 217px 101px 188px; }
+  padding: 217px 108px 188px; }
   .items-list__main-image__image {
     border: 1px solid #dee2e6;
     box-sizing: border-box;
@@ -7497,5 +7497,100 @@ a.text-dark:hover, a.text-dark:focus {
     position: absolute;
     left: 0;
     top: 28px; }
+
+.items-1__header {
+  color: #d9611b;
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center; }
+
+.items-listing__item {
+  margin-top: 18px;
+  margin-bottom: 48px; }
+  .items-listing__item + .items-listing__item {
+    margin-left: 5px; }
+  .items-listing__item__image {
+    padding: 40px;
+    border: 1px solid #2a2a2a; }
+    .items-listing__item__image img {
+      width: 199px;
+      height: 199px; }
+    .items-listing__item__image:hover {
+      box-shadow: 2px 3px 19px 8px rgba(0, 0, 0, 0.09); }
+  .items-listing__item__text {
+    margin-top: 39px;
+    color: #2a2a2a;
+    font-family: "Montserrat", arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center; }
+  .items-listing__item__price {
+    color: #d9611b;
+    font-family: "Montserrat", arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center; }
+
+.text-slogan {
+  font-family: "Montserrat", arial, sans-serif;
+  text-align: center;
+  background-color: #2a2a2a;
+  padding-top: 101px;
+  padding-bottom: 105px; }
+  .text-slogan__small-text {
+    color: #d9611b;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .text-slogan__large-text {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase; }
+
+@media (min-width: 768px) {
+  .text-columns__column {
+    min-height: 700px;
+    width: 50%;
+    height: 100%; } }
+
+.text-columns__column-left {
+  background-color: #fdcc65;
+  padding-top: 64px;
+  padding-bottom: 64px; }
+
+.text-columns__column-right {
+  background-color: #d9611b;
+  padding-top: 64px;
+  padding-bottom: 64px; }
+
+.text-columns__header {
+  color: #2a2a2a;
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 42px; }
+
+.text-columns__text {
+  color: #2a2a2a;
+  font-family: "Myriad Pro", arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px; }
+
+.text-columns__list {
+  color: #ffffff;
+  font-family: "Myriad Pro", arial, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px; }
+  .text-columns__list__element {
+    line-height: 30px;
+    list-style: none;
+    background-image: url("../img/check-mark.png");
+    background-repeat: no-repeat;
+    background-position-y: 6px;
+    padding-left: 27px; }
 
 /*# sourceMappingURL=maps/main.css.map */

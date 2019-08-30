@@ -1,6 +1,6 @@
 .items-list {
   &__main-image {
-    padding:  217px 101px 188px;
+    padding:  217px 108px 188px;
     &__image {
       border: 1px solid #dee2e6;
       box-sizing: border-box;
@@ -92,7 +92,7 @@
   position: relative;
   &:after {
     content: "";
-    background-color: #d9611b;
+    background-color: $color-primary;
     width: 25px;
     height: 1px;
     position: absolute;
