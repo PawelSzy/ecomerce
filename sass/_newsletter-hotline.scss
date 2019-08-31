@@ -1,0 +1,63 @@
+.newsletter-hotline {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+  }
+  &__element {
+    min-height: 418px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    font-family: $main-font;
+    @include media-breakpoint-up(md) {
+      width: 50%;
+      padding: 103px 107px 85px;
+    }
+    &--newsletter {
+      background-color: $color-primary;
+      color: white;
+    }
+    &--hotline {
+      background-color: $color-secondary;
+    }
+    &__header {
+      font-size: 25px;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 0;
+      @include media-breakpoint-up(md) {
+        font-size: 50px;
+      }
+    }
+    &__text {
+      font-size: 30px;
+      font-weight: 400;
+      @include media-breakpoint-up(md) {
+        font-size: 16px
+      }
+    }
+    &__form {
+      margin-top: 30px;
+      &__input, &__input.form-control {
+        font-size: 30px;
+        font-weight: 400;
+        height: 90px;
+        background-color: #ffffff;
+        padding-left: 56px;
+        &:placehoder {
+          color: $text-color-4;
+        }
+      }
+    }
+    :nth-child(1) {
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+    :nth-child(2) {
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+  }
+}
