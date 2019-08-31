@@ -10,11 +10,15 @@
     margin-bottom: 89px;
   }
   &__list {
-   &__element {
-     width: 331px;
-     height: 269px;
-     & + & {
-       margin-left: 110px;
+    &__element {
+      width: 331px;
+      height: 269px;
+      margin-bottom: 145px;
+
+      & + & {
+       @include media-breakpoint-up(lg) {
+         margin-left: 110px;
+       }
      }
    }
   }
@@ -26,6 +30,7 @@
 }
 
 .bubble {
+  $bubble-anime-time: 0.5s;
   width: 331px;
   height: 269px;
   border: 1px solid $border-color-2;
@@ -37,31 +42,36 @@
   font-weight: 400;
   line-height: 23.32px;
   box-sizing: border-box;
+  transition: height $bubble-anime-time;
+  position: relative;
   &:hover {
     background-color: $color-primary;
     width: 311px;
     height: 311px;
   }
   &:after {
+
     content: "";
     position: absolute;
     margin: auto;
     bottom: -11px;
-    left: 72px;
+    left: 50%;
     right: 0;
     width: 24px;
     height: 24PX;
     background-color: white;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
+    transform: rotate(45deg) translate(-251%, 257%);
+    -webkit-transform: rotate(45deg) translate(-251%, 257%);
+    -moz-transform: rotate(45deg) translate(-251%, 257%);
+    -o-transform: rotate(45deg) translate(-251%, 257%);
+    -ms-transform: rotate(45deg) translate(-251%, 257%);
     border-right: 1px solid $border-color-2;
     border-bottom: 1px solid $border-color-2;
+    transition: bottom $bubble-anime-time;
   }
   &:hover::after {
-    bottom: -53px;
+    bottom: -11px;
+    left: 63%;
     background-color: $color-primary;
   }
 }
