@@ -7748,7 +7748,7 @@ a.text-dark:hover, a.text-dark:focus {
     @media (min-width: 768px) {
       .newsletter-hotline__element {
         width: 50%;
-        padding: 103px 107px 85px; } }
+        padding: 103px 107px 47px; } }
     .newsletter-hotline__element--newsletter {
       background-color: #d9611b;
       color: white; }
@@ -7784,5 +7784,14 @@ a.text-dark:hover, a.text-dark:focus {
     .newsletter-hotline__element :nth-child(2) {
       margin-top: 0;
       margin-bottom: 30px; }
+
+.logos-section {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 40px 10px; }
+  .logos-section__logo {
+    max-width: 145px; }
 
 /*# sourceMappingURL=maps/main.css.map */

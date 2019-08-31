@@ -1,0 +1,10 @@
+.logos-section {
+  background-color: $bg-3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 40px 10px;
+  &__logo {
+    max-width: 145px;
+  }
+}
