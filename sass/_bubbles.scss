@@ -67,10 +67,6 @@
     height: 24PX;
     background-color: white;
     transform: rotate(45deg) translate(-251%, 257%);
-    -webkit-transform: rotate(45deg) translate(-251%, 257%);
-    -moz-transform: rotate(45deg) translate(-251%, 257%);
-    -o-transform: rotate(45deg) translate(-251%, 257%);
-    -ms-transform: rotate(45deg) translate(-251%, 257%);
     border-right: 1px solid $border-color-2;
     border-bottom: 1px solid $border-color-2;
     transition: bottom $bubble-anime-time;

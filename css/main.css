@@ -7416,16 +7416,17 @@ a.text-dark:hover, a.text-dark:focus {
   .aviability__checkbox, .aviability__checkbox.checkbox {
     display: inline; }
 
-@media (min-width: 768px) {
-  .items-list__main-image {
-    padding: 217px 108px 188px; } }
-
-.items-list__main-image__image {
-  border: 1px solid #dee2e6;
-  box-sizing: border-box;
-  max-width: 170px; }
-  .items-list__main-image__image:hover {
-    border: 3px solid rgba(217, 97, 27, 0.61); }
+.items-list__main-image {
+  width: 100%; }
+  @media (min-width: 768px) {
+    .items-list__main-image {
+      padding: 217px 108px 188px; } }
+  .items-list__main-image__image {
+    border: 1px solid #dee2e6;
+    box-sizing: border-box;
+    max-width: 170px; }
+    .items-list__main-image__image:hover {
+      border: 3px solid rgba(217, 97, 27, 0.61); }
 
 .items-list__items-table__header {
   color: #2a2a2a;
@@ -7720,10 +7721,6 @@ a.text-dark:hover, a.text-dark:focus {
     height: 24PX;
     background-color: white;
     transform: rotate(45deg) translate(-251%, 257%);
-    -webkit-transform: rotate(45deg) translate(-251%, 257%);
-    -moz-transform: rotate(45deg) translate(-251%, 257%);
-    -o-transform: rotate(45deg) translate(-251%, 257%);
-    -ms-transform: rotate(45deg) translate(-251%, 257%);
     border-right: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
     transition: bottom 0.5s; }
