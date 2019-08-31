@@ -53,12 +53,17 @@
   &__header {
     color: $color-primary;
     font-family: $main-font;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    @include media-breakpoint-up(md) {
+      font-size: 50px;
+    }
   }
   &__columns {
     display: flex;

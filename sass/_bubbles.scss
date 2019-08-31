@@ -13,8 +13,10 @@
     &__element {
       width: 331px;
       height: 269px;
-      margin-bottom: 145px;
-
+      margin-bottom: 364px;
+      @include media-breakpoint-up(sm) {
+        margin-bottom: 145px;
+      }
       & + & {
        @include media-breakpoint-up(lg) {
          margin-left: 110px;
@@ -25,17 +27,17 @@
   &__image {
     margin-top: 34px;
     text-align: center;
-    width: 331px;
+    @include media-breakpoint-up(sm) {
+      width: 331px;
+    }
   }
 }
 
 .bubble {
   $bubble-anime-time: 0.5s;
-  width: 331px;
-  height: 269px;
   border: 1px solid $border-color-2;
-  padding: 46px 18px 46px 70px;
   border-radius: 14px;
+  padding: 10px 20px;
   color: $text-color-3;
   font-family: $main-font;
   font-size: 15px;
@@ -44,13 +46,17 @@
   box-sizing: border-box;
   transition: height $bubble-anime-time;
   position: relative;
+  @include media-breakpoint-up(sm) {
+    width: 331px;
+    padding: 46px 18px 46px 70px;
+    height: 269px;
+  }
   &:hover {
     background-color: $color-primary;
     width: 311px;
     height: 311px;
   }
   &:after {
-
     content: "";
     position: absolute;
     margin: auto;

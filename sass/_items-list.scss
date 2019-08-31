@@ -1,6 +1,8 @@
 .items-list {
   &__main-image {
-    padding:  217px 108px 188px;
+    @include media-breakpoint-up(md) {
+      padding:  217px 108px 188px;
+    }
     &__image {
       border: 1px solid #dee2e6;
       box-sizing: border-box;

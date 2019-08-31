@@ -7416,14 +7416,16 @@ a.text-dark:hover, a.text-dark:focus {
   .aviability__checkbox, .aviability__checkbox.checkbox {
     display: inline; }
 
-.items-list__main-image {
-  padding: 217px 108px 188px; }
-  .items-list__main-image__image {
-    border: 1px solid #dee2e6;
-    box-sizing: border-box;
-    max-width: 170px; }
-    .items-list__main-image__image:hover {
-      border: 3px solid rgba(217, 97, 27, 0.61); }
+@media (min-width: 768px) {
+  .items-list__main-image {
+    padding: 217px 108px 188px; } }
+
+.items-list__main-image__image {
+  border: 1px solid #dee2e6;
+  box-sizing: border-box;
+  max-width: 170px; }
+  .items-list__main-image__image:hover {
+    border: 3px solid rgba(217, 97, 27, 0.61); }
 
 .items-list__items-table__header {
   color: #2a2a2a;
@@ -7624,12 +7626,17 @@ a.text-dark:hover, a.text-dark:focus {
 .text-columns-three__header {
   color: #d9611b;
   font-family: "Montserrat", arial, sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px; }
+  @media (min-width: 768px) {
+    .text-columns-three__header {
+      font-size: 50px; } }
 
 .text-columns-three__columns {
   display: flex;
@@ -7666,22 +7673,25 @@ a.text-dark:hover, a.text-dark:focus {
 .bubbles__list__element {
   width: 331px;
   height: 269px;
-  margin-bottom: 145px; }
+  margin-bottom: 364px; }
+  @media (min-width: 576px) {
+    .bubbles__list__element {
+      margin-bottom: 145px; } }
   @media (min-width: 992px) {
     .bubbles__list__element + .bubbles__list__element {
       margin-left: 110px; } }
 
 .bubbles__image {
   margin-top: 34px;
-  text-align: center;
-  width: 331px; }
+  text-align: center; }
+  @media (min-width: 576px) {
+    .bubbles__image {
+      width: 331px; } }
 
 .bubble {
-  width: 331px;
-  height: 269px;
   border: 1px solid #dddddd;
-  padding: 46px 18px 46px 70px;
   border-radius: 14px;
+  padding: 10px 20px;
   color: #393939;
   font-family: "Montserrat", arial, sans-serif;
   font-size: 15px;
@@ -7690,6 +7700,11 @@ a.text-dark:hover, a.text-dark:focus {
   box-sizing: border-box;
   transition: height 0.5s;
   position: relative; }
+  @media (min-width: 576px) {
+    .bubble {
+      width: 331px;
+      padding: 46px 18px 46px 70px;
+      height: 269px; } }
   .bubble:hover {
     background-color: #d9611b;
     width: 311px;
