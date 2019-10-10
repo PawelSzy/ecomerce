@@ -18,6 +18,9 @@
     height: 39px;
     &__input {
       width: 260px;
+      &.form-control {
+        width: 260px;
+      }
       background-color: #fcfcfc;
     }
     &--search-button {

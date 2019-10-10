@@ -7359,6 +7359,8 @@ a.text-dark:hover, a.text-dark:focus {
     .shopping-navbar__input-group__input {
       width: 260px;
       background-color: #fcfcfc; }
+      .shopping-navbar__input-group__input.form-control {
+        width: 260px; }
     .shopping-navbar__input-group--search-button {
       background-color: #d9611b;
       height: 38px; }
