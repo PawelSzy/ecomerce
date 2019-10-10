@@ -94,11 +94,11 @@
   position: relative;
   &:after {
     content: "";
-    background-color: $color-primary;
-    width: 25px;
+    background-color: #d9611b;
+    width: 35px;
     height: 1px;
     position: absolute;
     left: 0;
-    top: 28px;
+    top: 37px;
   }
 }

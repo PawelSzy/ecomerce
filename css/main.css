@@ -7495,11 +7495,11 @@ a.text-dark:hover, a.text-dark:focus {
   .mini-table-plus-minus:after {
     content: "";
     background-color: #d9611b;
-    width: 25px;
+    width: 35px;
     height: 1px;
     position: absolute;
     left: 0;
-    top: 28px; }
+    top: 37px; }
 
 .items-1__header {
   color: #d9611b;
